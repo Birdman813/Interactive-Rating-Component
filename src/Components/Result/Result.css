@@ -1,0 +1,39 @@
+.result-container {
+    border-radius: 30px;
+    background: var(--black-gradient, radial-gradient(98.96% 98.96% at 50% 0%, #232A34 0%, #181E27 100%));
+    width: 412px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 45px 40px 45px 32px;
+}
+.result {
+    border-radius: 22.5px;
+    background: var(--Dark-Blue, #262E38);
+    color:  #FC7614;
+    text-align: center;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    width: 193px;
+    height: 32px;
+    margin: 36px 0 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.result-container h1 {
+    color: #FFF;
+    font-size: 2.8rem;
+    font-style: normal;
+    font-weight: 700;
+}
+.result-container p {
+    color: #969FAD;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+}
